@@ -1,0 +1,10 @@
+:HL["/CHOP/_next/static/media/011e180705008d6f-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/CHOP/_next/static/media/26d4368bf94c0ec4-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/CHOP/_next/static/media/28793f5c5e3d822d-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/CHOP/_next/static/media/29b98dbfba401fa9-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/CHOP/_next/static/media/98e207f02528a563-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/CHOP/_next/static/media/d29838c109ef09b4-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/CHOP/_next/static/media/d3ebbfd689654d3a-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/CHOP/_next/static/media/d76fe899475ae4d7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/CHOP/_next/static/css/6b9b79670702b9a5.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"uslugi","param":null,"prefetchHints":4160,"slots":{"children":{"name":"slug","param":{"type":"d","key":"ohrana-obektov","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"tz2gDfaY0cM5soi159zlA"}
