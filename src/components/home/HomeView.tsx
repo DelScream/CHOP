@@ -11,6 +11,7 @@ import { CtaBand } from "@/components/ui/PageHero";
 import { CardImage } from "@/components/ui/CardImage";
 import { FaqList } from "@/components/ui/FaqList";
 import { Reveal } from "@/components/ui/Reveal";
+import { withBase } from "@/lib/asset";
 import { caseExtra, pics } from "@/lib/content";
 import {
   approachItems,
@@ -33,7 +34,7 @@ export function HomeView() {
       <section className="hero" id="object">
         <div className="hero__media" aria-hidden>
           <Image
-            src={pics.city.src}
+            src={withBase(pics.city.src)}
             alt=""
             fill
             priority
@@ -285,7 +286,7 @@ export function HomeView() {
       <section className="section" id="team">
         <div className="container--wide portrait">
           <div className="portrait-photo">
-            <Image src={pics.director.src} alt={pics.director.alt} fill sizes="(max-width: 900px) 100vw, 40vw" />
+            <Image src={withBase(pics.director.src)} alt={pics.director.alt} fill sizes="(max-width: 900px) 100vw, 40vw" />
           </div>
           <div>
             <p className="kicker">Команда</p>

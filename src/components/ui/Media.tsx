@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBase } from "@/lib/asset";
 
 export function Cover({
   src,
@@ -17,7 +18,7 @@ export function Cover({
 }) {
   return (
     <section className="cover">
-      <Image src={src} alt={alt} fill priority sizes="100vw" className="cover__img" />
+      <Image src={withBase(src)} alt={alt} fill priority sizes="100vw" className="cover__img" />
       <div className="cover__shade" />
       <div className="container cover__content">
         <p className="kicker">{kicker}</p>
@@ -42,7 +43,7 @@ export function Photo({
 }) {
   return (
     <figure className={`photo ${className}`.trim()}>
-      <Image src={src} alt={alt} width={1600} height={1000} sizes="(max-width: 900px) 100vw, 50vw" />
+      <Image src={withBase(src)} alt={alt} width={1600} height={1000} sizes="(max-width: 900px) 100vw, 50vw" />
       {caption ? <figcaption>{caption}</figcaption> : null}
     </figure>
   );

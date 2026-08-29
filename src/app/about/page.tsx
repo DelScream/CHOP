@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Cover, Split } from "@/components/ui/Media";
 import { CtaBand } from "@/components/ui/PageHero";
+import { withBase } from "@/lib/asset";
 import { pics } from "@/lib/content";
 import { approachItems, processSteps, teamNotes } from "@/lib/data";
 import { pageMeta } from "@/lib/seo";
@@ -77,7 +78,7 @@ export default function AboutPage() {
       <section className="section section--panel" id="team">
         <div className="container--wide portrait">
           <div className="portrait-photo">
-            <Image src={pics.director.src} alt={pics.director.alt} fill sizes="(max-width: 900px) 100vw, 40vw" />
+            <Image src={withBase(pics.director.src)} alt={pics.director.alt} fill sizes="(max-width: 900px) 100vw, 40vw" />
           </div>
           <div>
             <p className="kicker">Руководство</p>
