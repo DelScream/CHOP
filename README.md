@@ -43,14 +43,6 @@ npm run preview
 
 Сайт рассчитан на адрес `https://delscream.github.io/CHOP/`.
 
-После пуша в `main` workflow собирает проект и выкладывает `out` в ветку `gh-pages`.
-
-Один раз включи публикацию:
-
-1. **Settings → Pages**
-2. **Source:** Deploy from a branch
-3. **Branch:** `gh-pages` / `/ (root)` → **Save**
-
 ## Лицензия
 
 MIT © 2026 Валерий Гацкан (@DelScream)
